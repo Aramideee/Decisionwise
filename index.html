@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecisionWise | Make Smarter Financial Decisions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="#home" class="logo">Decision<span>Wise</span>.</a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#how-it-works">How It Works</a>
+    </nav>
+
+    <a href="#assessment" class="nav-button">Get Started</a>
+</header>
+<main>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="hero-label">A smarter way to plan your purchases</p>
+
+        <h1>
+            Thinking of a<br>
+            big purchase?
+        </h1>
+
+        <p class="hero-description">
+            Whether it's a car, a laptop, starting a business
+            or upgrading your home, understand how the purchase
+            will affect your finances and the best way to pay for it.
+        </p>
+
+        <a href="#assessment" class="primary-button">
+            Start Your Assessment
+        </a>
+    </div>
+
+    <div class="hero-visual">
+        <img src="images/decisionwise-hero.png.PNG"
+             alt="A woman thoughtfully planning a major purchase using her laptop">
+    </div>
+</section>
+
+<section class="trust-section" id="about">
+
+    <div class="trust-content">
+        <p class="trust-label">WHY DECISIONWISE</p>
+
+        <h2>Every big purchase deserves a<br>better financial plan.</h2>
+
+        <p class="trust-description">
+            Before you spend, understand what you can afford,
+            what you should save, and which payment option
+            makes the most sense for your finances.
+        </p>
+
+        <div class="trust-items">
+            <div class="trust-item">
+                <span>01</span>
+                <p>Understand your finances</p>
+            </div>
+
+            <div class="trust-item">
+                <span>02</span>
+                <p>Compare your options</p>
+            </div>
+
+            <div class="trust-item">
+                <span>03</span>
+                <p>Make informed decisions</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="how-it-works" id="how-it-works">
+
+    <div class="section-heading">
+        <span>THE DECISIONWISE APPROACH</span>
+        <h2>Better decisions begin with better information.</h2>
+        <p>Understand your finances, explore your options and make a confident purchasing decision.</p>
+    </div>
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+            <div class="feature-number">01</div>
+
+            <div class="feature-visual finance-visual">
+                <div class="visual-paper">
+                    <span>ILLUSTRATIVE EXAMPLE</span>
+                    <span>MONTHLY INCOME</span>
+                    <strong>₦500,000</strong>
+                    <div class="visual-line"></div>
+                    <span>MONTHLY EXPENSES</span>
+                    <strong>₦230,000</strong>
+                    <div class="visual-line short"></div>
+                    <span>CURRENT SAVINGS</span>
+                    <strong>₦1,000,000</strong>
+                </div>
+            </div>
+
+            <h3>Know Your Numbers</h3>
+            <p>Enter your income, expenses, existing debts, savings and purchase details. DecisionWise uses this information to understand your current financial position.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-number">02</div>
+
+            <div class="feature-visual options-visual">
+                <div class="option-preview">
+                    <span>01</span>
+                    <strong>Buy Now</strong>
+                    <small>Pay with available savings</small>
+                </div>
+
+                <div class="option-preview highlighted">
+                    <span>02</span>
+                    <strong>Wait & Save</strong>
+                    <small>Build your savings first</small>
+                </div>
+
+                <div class="option-preview">
+                    <span>03</span>
+                    <strong>Pay in Instalments</strong>
+                    <small>Spread the cost over time</small>
+                </div>
+            </div>
+
+            <h3>Compare Your Options</h3>
+            <p>Compare buying immediately, waiting and saving, or paying in instalments. See how each option affects your savings, cash flow and financial security.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-number">03</div>
+
+            <div class="feature-visual decision-visual">
+                <div class="decision-paper">
+                    <span>YOUR DECISIONWISE REVIEW</span>
+                    <strong>Purchase Assessment</strong>
+                    <div class="decision-status">Personalised Recommendation</div>
+                    <div class="decision-line"></div>
+                    <div class="decision-line"></div>
+                    <div class="decision-line small"></div>
+                </div>
+            </div>
+
+            <h3>Make Your Decision</h3>
+            <p>Review your financial assessment, understand the risks and follow a recommendation based on your financial position before committing to the purchase.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="start" id="start">
+
+    <div class="start-content">
+        <p class="start-label">YOUR NEXT MOVE STARTS HERE</p>
+
+        <h2>Make your next purchase<br> with financial confidence.</h2>
+
+        <p>
+            Before making a big financial commitment,
+            take a moment to understand your options
+            and choose a payment plan that works for you.
+        </p>
+
+        <a href="#assessment" class="primary-button">
+            Start Your Assessment
+        </a>
+    </div>
+
+</section>
+<section class="assessment" id="assessment">
+    <div class="assessment-heading">
+        <span>YOUR FINANCIAL CHECK</span>
+        <h2>Let's evaluate your next purchase.</h2>
+        <p>Enter your financial details below to compare your purchasing options.</p>
+    </div>
+
+    <form id="decisionForm">
+
+        <div class="form-card">
+            <h3>01. Financial Information</h3>
+            <p>Tell us about your current financial position.</p>
+
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>Currency</label>
+                    <select id="currency" required>
+                        <option value="NGN">NGN - Nigerian Naira</option>
+                        <option value="USD">USD - US Dollar</option>
+                        <option value="GBP">GBP - British Pound</option>
+                        <option value="EUR">EUR - Euro</option>
+                        <option value="CAD">CAD - Canadian Dollar</option>
+                        <option value="AUD">AUD - Australian Dollar</option>
+                        <option value="ZAR">ZAR - South African Rand</option>
+                        <option value="INR">INR - Indian Rupee</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Monthly Income</label>
+                    <input type="number" id="income" min="0" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Essential Expenses</label>
+                    <input type="number" id="essential" min="0" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Non-Essential Expenses</label>
+                    <input type="number" id="nonEssential" min="0" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Existing Debt Payment</label>
+                    <input type="number" id="debt" min="0" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Current Savings</label>
+                    <input type="number" id="savings" min="0" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Emergency Fund Target (Months)</label>
+                    <input type="number" id="emergencyTarget" min="1" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-card">
+            <h3>02. Purchase Information</h3>
+            <p>What are you planning to purchase?</p>
+
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>Item</label>
+                    <input type="text" id="item" placeholder="e.g. Laptop, Car" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Purchase Price</label>
+                    <input type="number" id="price" min="0" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Additional Costs</label>
+                    <input type="number" id="additionalCosts" min="0" value="0">
+                </div>
+
+                <div class="form-group">
+                    <label>Preferred Payment Method (Optional)</label>
+                    <select id="paymentMethod">
+                        <option value="Cash">Cash</option>
+                        <option value="Installment">Installment</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-card">
+            <h3>03. Installment & Savings Information</h3>
+            <p>Provide details for the alternative purchasing options.</p>
+
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>Installment Upfront Payment</label>
+                    <input type="number" id="installmentUpfront" min="0" value="0">
+                </div>
+
+                <div class="form-group">
+                    <label>Installment Period (Months)</label>
+                    <input type="number" id="installmentMonths" min="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Annual Interest Rate (%)</label>
+                    <input type="number" id="interestRate" min="0" step="any" value="0">
+                </div>
+
+                <div class="form-group">
+                    <label>Waiting Period (Months)</label>
+                    <input type="number" id="waitingPeriod" min="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Monthly Savings While Waiting</label>
+                    <input type="number" id="monthlySavings" min="0" required>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="primary-button">
+    Analyse My Financial Decision →
+</button>
+
+<button type="button" id="clearButton" class="secondary-button">
+    Clear Form
+</button>
+
+    </form>
+</section>
+</main>
+
+<footer>
+    <a href="#home" class="logo">Decision<span>Wise</span><b>.</b></a>
+    <p>© Ara 2026 DecisionWise. Think before you buy.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
